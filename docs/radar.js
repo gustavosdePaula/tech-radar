@@ -48,10 +48,10 @@ function radar_visualization(config) {
   ];
 
   const rings = [
-    { radius: 130 },
-    { radius: 220 },
-    { radius: 310 },
-    { radius: 400 }
+    { radius: 120 },
+    { radius: 200 },
+    { radius: 290 },
+    { radius: 380 }
   ];
 
   const title_offset =
@@ -61,10 +61,10 @@ function radar_visualization(config) {
     { x: -675, y: 420 };
 
   const legend_offset = [
-    { x: 450, y: 90 },
-    { x: -675, y: 90 },
-    { x: -675, y: -310 },
-    { x: 450, y: -310 }
+    { x: 410, y: 90 },
+    { x: -600, y: 90 },
+    { x: -600, y: -310 },
+    { x: 410, y: -310 }
   ];
 
   function polar(cartesian) {

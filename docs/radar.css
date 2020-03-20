@@ -3,13 +3,20 @@ body {
   padding-bottom: 50px;
   width: 100%;
   height: 100%;
+  margin: 0px;
 }
 
 svg{
   align-content: center;
-  text-align: center;
-  /* margin-left: 0vmax; */
+  text-align: center;  
 }
+
+@media screen and (min-width: 2500px) {
+  svg {
+    margin-left: 25vh;  
+  }
+}
+
 .logo {
   margin-left: 15px;
   height: 100%;
@@ -54,7 +61,7 @@ li {
   margin: 25px 50px 0 0;
 }
 table {
-  width: 1400px;
+  width: 100%x;
   margin: 0 50px 0 50px;
 }
 td {
