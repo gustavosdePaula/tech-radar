@@ -16,6 +16,16 @@ svg{
     margin-left: 25vh;  
   }
 }
+@media screen and (min-width: 1400px) and (max-width: 1600px ) {
+  svg {
+    margin-left: 10vh;  
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 2500px ) {
+  svg {
+    margin-left: 15vh;  
+  }
+}
 
 .logo {
   margin-left: 15px;
